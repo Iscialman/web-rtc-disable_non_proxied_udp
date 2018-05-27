@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "webRTCIPHandlingPolicy = 'disable_non_proxied_udp'",
+    "version": "0.0.1",
+    "description": "Sets chrome.privacy.network.webRTCIPHandlingPolicy to 'disable_non_proxied_udp'",
+    "icons": {},
+    "minimum_chrome_version": "48",
+    "permissions": ["privacy"],
+    "background": {
+      "scripts": ["/js/background.js"],
+      "persistent": false
+    }
+  }
